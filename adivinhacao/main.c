@@ -23,7 +23,7 @@ int main() {
     printf("Qual o nível de dificuldade?\n");
     printf("(1) Fácil (2) Médio (3) Difícil\n\n");
     printf("Escolha: ");
-    scanf("%d", &nivel);
+    scanf("%d", &nivel);    // O & retorna o endereço de memória da variavel
 
     int ntentativas;
 
